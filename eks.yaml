@@ -6,7 +6,8 @@ metadata:
     region: us-east-1
 managedNodeGroups:
   - name: eksdev
-    instanceTypes: ["t3.micro", "t3.small"]
+    instanceTypes:
+      te.small
     desiredCapacity: 2
     spot: true
 
